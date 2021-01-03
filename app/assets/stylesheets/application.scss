@@ -1,0 +1,57 @@
+@import "bootstrap/scss/bootstrap";
+
+$gray-medium-light:#A1A2A6;
+$gray: #585859;
+
+footer {
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid $gray-medium-light;
+    color: $gray;
+    a{
+        color: $gray;
+        /*It means: that a:hover */
+        &:hover{
+            color: $gray-medium-light;
+        }
+        small {
+            float: left;
+        }
+        ul {
+            float: right;
+            list-style: none;
+        li {
+            float: left;
+            margin-left: 15px;
+            }
+        }
+    }
+}
+
+.title {
+    margin-top: 50px;
+}
+
+nav {
+    margin-bottom: 50px;
+}
+
+.subtitle{
+    margin-right: 70px;
+}
+
+.left{
+    padding-left: 30px;
+}
+
+th{
+    padding: 15px;
+}
+
+td{
+    padding: 15px;
+}
+
+#newcontact{
+    padding-left: 15px;
+}

@@ -1,0 +1,14 @@
+<div class="row">
+    <div class="col-xs-12 subtitle">
+        <h1>Editar dados</h1>
+    </div>
+
+    <div class="col-md-6 col-md-offset-3 col-xs-12 ">
+        <%= form_for current_user do |f| %> <!-- cria form com action para user que é um atributo lá no controller -->
+
+            <%= render 'form', f: f %>
+        
+            <%= f.submit 'Cadastrar', class: 'btn btn-primary' %>
+        <% end %>
+    </div>
+</div>
